@@ -1,0 +1,24 @@
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  endpoint:
+    health:
+      show-details: always
+    loggers:
+      enabled: true
+    env:
+      show-values: always
+    configprops:
+      show-values: always
+
+#logging:
+#  level:
+#    root: debug
+spring:
+  jpa:
+    show-sql: true
+
